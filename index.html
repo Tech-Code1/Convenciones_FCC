@@ -4,175 +4,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Convenciones Match</title>
 </head>
 
-<body>
+<body id="body">
     <nav class="content-nav" id="navbar">
-        <header>Convenciones</header>
-        <li><a href="" class="nav-link">Introducción</a></li>
-        <li><a href="" class="nav-link">Identación</a></li>
-        <li><a href="" class="nav-link">Longitud de una lí­nea</a></li>
-        <li><a href="" class="nav-link">Llaves</a></li>
-        <li><a href="" class="nav-link">Declaración de variables</a></li>
-        <li><a href="" class="nav-link">Formato de nombres de variables y funciones</a></li>
-        <li><a href="" class="nav-link">Nombres de archivo</a></li>
-        <li><a href="" class="nav-link">Nombres de componentes React</a></li>
-        <li><a href="" class="nav-link">Metodología Atomic Design</a></li>
-        <li><a href="" class="nav-link">Aspectos a tener en cuenta</a></li>
-        <li><a href="" class="nav-link">Style jsx en Componentes</a></li>
-        <li><a href="" class="nav-link">Metodología 7 en 1</a></li>
-        <li><a href="" class="nav-link">¿Como Colaboro al proyecto?</a></li>
-        <li><a href="" class="nav-link">Contactanos</a></li>
+        <header class="convencion-title">Convenciones Community Match</header>
+        <div class="line-convetion"></div>
+        <ul class="list-menu">
+        <li class="li-nav"><a href="#Introduction" class="nav-link color-one">Introducción</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#indentation" class="nav-link color-one">Identación</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#Length_of_a_line" class="nav-link color-one">Longitud de una lí­nea</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#keys" class="nav-link color-one">Llaves</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#Declaration_of_variables" class="nav-link color-one">Declaración de variables</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#format" class="nav-link color-one">Formato de nombres de variables y funciones</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#name_of_folder" class="nav-link color-one">Nombres de archivo</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#name_of_components" class="nav-link color-two">Nombres de componentes React</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#methodology-atomic-design" class="nav-link color-two">Metodología Atomic Design</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#to_consider" class="nav-link color-two">Aspectos a tener en cuenta</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#style_jsx" class="nav-link color-three">Style jsx en Componentes</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#seven_in_one" class="nav-link color-three">Metodología 7 en 1</a></li>
+        <div class="line-menu"></div>
+        <li class="li-nav"><a href="#colaborate" class="nav-link color-four">¿Como Colaboro al proyecto?</a></li>
+        <div class="line-menu"></div>
+        
+    </ul>
     </nav>
     <main id="main-doc">
-        <section class="main-section" id="">
-            <article>
-                <header>Convenciones de Código</header>
-                <p>¿Por qué?</p>
-                <li>80% de código va a su mantenimiento</li>
-                <li>Mejora la lectura</li>
-                <li>Asegurarse de que está bien hecho</li>
+        <section class="main-section" id="Introduction">
+            <article class="article-txt">
+                <header class="txt-principal">Convenciones de Código</header>
+                <p class="subtitle-body">¿Por qué?</p>
+                <li class="txt-body">80% de código va a su mantenimiento</li>
+                <li class="txt-body">Mejora la lectura</li>
+                <li class="txt-body">Asegurarse de que está bien hecho</li>
 
-                <p>Para lograr un código limpio, a continuación se describe convenciones que se utilizarán en el
+                <p class="txt-body">Para lograr un código limpio, a continuación se describe convenciones que se utilizarán en el
                     Frontend como en el Backend.</p>
             </article>
         </section>
-        <section class="main-section" id="">
-            <article>
-                <header>Identación</header>
-                <p>Normalmente se puede trabajar con identación y espacios en blanco en el código y no es importante
+        <section class="main-section" id="indentation">
+            <article class="article-txt">
+                <header class="txt-principal">Identación</header>
+                <p class="txt-body">Normalmente se puede trabajar con identación y espacios en blanco en el código y no es importante
                     para el intérprete puesto que no los toma en cuenta, pero para el programador, esto provee una mejor
                     legibilidad del código.</p>
-                <p>Entonces la recomendación es que:</p>
-                <li>Nunca se debe mezclar espacios y tabulaciones.</li>
-                <li>De preferencia, se debe identar con 4 espacios.</li>
-                <li>No uses tabulaciones</li>
+                <p class="txt-body">Entonces la recomendación es que:</p>
+                <li class="txt-body">Nunca se debe mezclar espacios y tabulaciones.</li>
+                <li class="txt-body">De preferencia, se debe identar con 4 espacios.</li>
+                <li class="txt-body">No uses tabulaciones</li>
             </article>
         </section>
-        <section class="main-section" id="">
-            <article>
-                <header>Longitud de una lí­nea</header>
-                <p>El lí­mite de las lí­neas de código deberán ser de 80 caracteres, esto ayudará a una mejor lectura
+        <section class="main-section" id="Length_of_a_line">
+            <article class="article-txt">
+                <header class="txt-principal">Longitud de una lí­nea</header>
+                <p class="txt-body">El lí­mite de las lí­neas de código deberán ser de 80 caracteres, esto ayudará a una mejor lectura
                     del código.</p>
             </article>
         </section>
-        <section class="main-section" id="">
-            <article>
-                <header>Llaves</header>
-                <p>La llave de apertura deberá ir en la misma lí­nea de la sentencia. Si colocas en la siguiente lí­nea,
+        <section class="main-section" id="keys">
+            <article class="article-txt">
+                <header class="txt-principal">Llaves</header>
+                <p class="txt-body">La llave de apertura deberá ir en la misma lí­nea de la sentencia. Si colocas en la siguiente lí­nea,
                     en algunos casos muy particulares se puede producir algún error. Más adelante se explica dicho error
                     en el uso de punto y coma en las sentencias.</p>
-                <h3>No recomendado</h3>
-                <code>// control flow stament
-                    if ( true ) 
+                <h3 class="subtitle-body">No recomendado</h3>
+                <code class="txt-body">// control flow stament <br>
+                    if ( true ) <br>
+                    { <br>
+                       //codes goes here <br>
+                    } <br>
+                    //Anonymous function declaration <br>
+                    function ( args )  <br>
+                    { <br>
+                        return true; <br>
+                    } <br>
+                    //Named function declaration <br>
+                    function foo() <br>
                     {
-                       //codes goes here
+                       return true; <br>
                     }
-                    //Anonymous function declaration
-                    function ( args ) 
-                    {
-                        return true;
-                    }
-                    //Named function declaration
-                    function foo() 
-                    {
-                       return true;
-                    }
-                    //Anonymous function expression
-                    const bar = function ( args ) 
-                    {
-                       return true;
-                    }
-                    //Arrow function
-                    const bar = (arg) =>
-                    {
-                     return true,
-                    };
-                    const bar = ( args ) => 
+                    //Anonymous function expression <br>
+                    const bar = function ( args ) <br>
+                    { <br>
+                       return true; <br>
+                    } <br>
+                    //Arrow function <br>
+                    const bar = (arg) => <br>
+                    { <br>
+                     return true, <br>
+                    }; <br>
+                    const bar = ( args ) => <br>
                     { true };</code>
-                <h3>Recomendado</h3>
-                <code>// control flow stament
-                    if ( true ) {
-                     //codes goes here
-                    }
-                    //Anonymous function declaration
-                    function ( args ) {
-                       return true;
-                    }
-                    //Named function declaration
-                    function foo() {
-                       return true;
-                    }
-                    //Anonymous function expression
-                    const bar = function ( args ) {
-                       return true;
-                    }
-                    //Arrow function
-                    const bar = (arg) => {
-                       return true,
-                    };
-                    const bar = ( args ) => { true };
+                <h3 class="subtitle-body">Recomendado</h3>
+                <code class="txt-body">// control flow stament <br>
+                    if ( true ) { <br>
+                     //codes goes here <br>
+                    } <br>
+                    //Anonymous function declaration <br>
+                    function ( args ) { <br>
+                       return true; <br>
+                    } <br>
+                    //Named function declaration <br>
+                    function foo() { <br>
+                       return true; <br>
+                    } <br>
+                    //Anonymous function expression <br>
+                    const bar = function ( args ) { <br>
+                       return true; <br>
+                    } <br>
+                    //Arrow function <br>
+                    const bar = (arg) => { <br>
+                       return true, <br>
+                    }; <br>
+                    const bar = ( args ) => { true }; <br>
                     const bar = ( args ) => true;</code>
             </article>
         </section>
-        <section class="main-section" id="">
-            <article>
-                <header>Declaración de variables</header>
-                <p>En el ámbito de las variables y hoisting, ahora es recomendable usar const y let en lugar de var.</p>
-                <header>Formato de declaración</header>
-                <h3>No Recomendado</h3>
-                <code>// separar por comas
-                    const day = ‘Monday’, 
-                          count = 10;
-                    //Alinear
-                    const day   = ‘Monday’,
-                          count = 10;
-                    //En la misma lí­nea
+        <section class="main-section" id="Declaration_of_variables">
+            <article class="article-txt">
+                <header class="txt-principal">Declaración de variables</header>
+                <p class="txt-body">En el ámbito de las variables y hoisting, ahora es recomendable usar const y let en lugar de var.</p>
+                <header class="txt-principal">Formato de declaración</header>
+                <h3 class="subtitle-body">No Recomendado</h3>
+                <code class="txt-body">// separar por comas <br>
+                    const day = ‘Monday’, <br>
+                          count = 10; <br>
+                    //Alinear <br>
+                    const day   = ‘Monday’, <br>
+                          count = 10; <br>
+                    //En la misma lí­nea <br>
                     const day = ‘Monday’, count = 10;</code>
-                <h3>Recomendado</h3>
-                <code>const day = 1;
-                    const count = 10;
-                    const keys = [‘foo’, ‘bar’];
+                <h3 class="subtitle-body">Recomendado</h3>
+                <code class="txt-body">const day = 1; <br>
+                    const count = 10; <br>
+                    const keys = [‘foo’, ‘bar’]; <br>
                     const values = [1, 2];</code>
             </article>
         </section>
-        <section class="main-section" id="">
-            <article>
-                <header>Formato de nombres de variables y funciones</header>
-                <li>Utiliza camelCase para nombrar funciones, declaración de variables, instancias, etc.</li>
-                <p>Por ejemplo:</p>
-                <code>- functionNamesLikeThis;
-                    - variableNamesLikeThis;
-                    - methodNamesLikeThis;</code>
-                <li>Utiliza PascalCase para nombrar constructores, prototypes, clases, etc</li>
-                <p>Por ejemplo:</p>
-                <code>- ConstructorNamesLikeThis;
-                        - EnumNamesLikeThis;</code>
+        <section class="main-section" id="format">
+            <article class="article-txt">
+                <header class="txt-principal">Formato de nombres de variables y funciones</header>
+                <li class="txt-body">Utiliza camelCase para nombrar funciones, declaración de variables, instancias, etc.</li>
+                <p class="subtitle-body">Por ejemplo:</p>
+                <code class="txt-body">- functionNamesLikeThis; <br>
+                    - variableNamesLikeThis; <br>
+                    - methodNamesLikeThis;</code> 
+                <li class="txt-body">Utiliza PascalCase para nombrar constructores, prototypes, clases, etc</li>
+                <p class="subtitle-body">Por ejemplo:</p>
+                <code class="txt-body">
+                    - ConstructorNamesLikeThis; <br>
+                        - EnumNamesLikeThis;
+                    </code>
 
-                <head>En variables</head>
-                <li>Para declarar valores constantes utiliza Mayusculas y separado por un guión bajo cada palabra.</li>
-                <p>Por ejemplo:</p>
-                <code>const SYMBOLIC_CONSTANTS_LIKE_THIS;</code>
-                <li>Para declarar valores variables utiliza camelCase</li>
-                <p>Por ejemplo:</p>
-                <code>let adminUser;
+                <header class="txt-principal">En variables</header>
+                <li class="txt-body">Para declarar valores constantes utiliza Mayusculas y separado por un guión bajo cada palabra.</li>
+                <p class="subtitle-body">Por ejemplo:</p>
+                <code class="txt-body">const SYMBOLIC_CONSTANTS_LIKE_THIS;</code>
+                <li class="txt-body">Para declarar valores variables utiliza camelCase</li>
+                <p class="subtitle-body">Por ejemplo:</p>
+                <code class="txt-body">let adminUser;
                         let daysSinceCreation;</code>
 
-                <h2>Nombres y comentarios en ingles</h2>
-                <p>En general, los lenguajes de programación basan su vocabulario en el idioma inglés, puesto que es el
+                <h2 class="txt-principal">Nombres y comentarios en ingles</h2>
+                <p class="txt-body">En general, los lenguajes de programación basan su vocabulario en el idioma inglés, puesto que es el
                     lenguaje más utilizado en el mundo. Se debe escribir los comentarios, como nombres de variables, de
                     funciones y demás, en ingles.</p>
-                <h2>Nombres con sentido</h2>
-                <p>La intención de asignar un nombre con sentido a carpetas, archivos, variables, funciones, etc. Es
+                <h2 class="txt-principal">Nombres con sentido</h2>
+                <p class="txt-body">La intención de asignar un nombre con sentido a carpetas, archivos, variables, funciones, etc. Es
                     indicar cuál es su cometido, de tal manera que quede claro el propósito por el cuál fue creado.</p>
-                <h2>Comentarios</h2>
-                <p>Procura asignar comentarios solo cuando sea necesario y que ayuden a entender mejor el código.</p>
+                <h2 class="txt-principal">Comentarios</h2>
+                <p class="txt-body">Procura asignar comentarios solo cuando sea necesario y que ayuden a entender mejor el código.</p>
             </article>
-            <article>
-                <header>Nombres de archivo</header>
-                <p>La mayoría de los servidores web (Apache, Unix) son sensibles acerca de los nombres de archivo:
+            <article class="article-txt" id="name_of_folder">
+                <header class="txt-principal">Nombres de archivos</header>
+                <p class="txt-body">La mayoría de los servidores web (Apache, Unix) son sensibles acerca de los nombres de archivo:
                     london.jpg no se puede acceder como London.jpg .
                     Otros servidores web (Microsoft, IIS) no distinguen entre mayúsculas y minúsculas:
                     london.jpg se puede acceder como London.jpg o london.jpg.
@@ -183,83 +202,72 @@
                 </p>
             </article>
             <!-- Convenciones React -->
-            <article>
-                <header>Nombres de componentes React</header>
-                <li>Se debera usar camelCase para nombrar los componentes.</li>
+            <article class="article-txt" id="name_of_components">
+                <header class="txt-principal">Nombres de componentes React</header>
+                <li class="txt-body">Se debera usar camelCase para nombrar los componentes.</li>
                 <h2>Nombre archivos componentes React</h2>
-                <li>Es necesario nombrar los nuevos archivos de React con el mismo nombre que tendra el componente</li>
-                <article>
-                    <h2>Metodología Atomic Design</h2>
-                    <p>Aplicaremos esta metodología para trabajar con los componentes de React para generar una
+                <li class="txt-body">Es necesario nombrar los nuevos archivos de React con el mismo nombre que tendra el componente</li>
+            </article>
+                <article class="article-txt" id="methodology-atomic-design">
+                    <h2 class="txt-principal">Metodología Atomic Design</h2>
+                    <p class="txt-body">Aplicaremos esta metodología para trabajar con los componentes de React para generar una
                         organización mas escalable y llevadera a la larga; el Atom Design se divide en 5 etapas, pero
                         para nuestro proyecto solo trabajaremos con las siguientes:</p>
-                    <li>Átomos</li>
-                    <li>Moléculas</li>
-                    <li>Organismos</li>
-                    <li>Páginas</li>
-                    <h2>Aca una breve explicación de que es el Atomic Design</h2>
+                    <li class="txt-body">Átomos</li>
+                    <li class="txt-body">Moléculas</li>
+                    <li class="txt-body">Organismos</li>
+                    <li class="txt-body">Páginas</li>
+                    <h2 class="txt-body">Aca una breve explicación de que es el Atomic Design</h2>
                     <iframe width="1271" height="721" src="https://www.youtube.com/embed/4m3Dkk42uHk" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                </article>
             </article>
-            <article>
-                <h2>Aspectos a tener en cuenta</h2>
-                <li>No es necesario poner el import de React, ya que al trabajar con Next esto lo hace de forma
+            <article class="article-txt" id="to_consider">
+                <h2 class="txt-principal">Aspectos a tener en cuenta</h2>
+                <li class="txt-body">No es necesario poner el import de React, ya que al trabajar con Next esto lo hace de forma
                     automatica.</li>
-                <li>En la medida de lo posible trabajaremos con hooks.</li>
-                <li>Se trabajara con funciones para que el código se pueda leer mejor.</li>
-            </article>
-            <article>
-                <h2>Style jsx en Componentes</h2>
-                <li>Si se va a agregar alguna interactividad a los estilos, se deberá de usar el style jsx que nos
-                    ofrece Next, esto con el fin de solo usar dentro de los componentes los estilos con algún cambio de
-                    estado, acá un ejemplo: </li>
-                <img src="/example-one.png" alt="imagen de código">
+                <li class="txt-body">En la medida de lo posible trabajaremos con hooks.</li>
+                <li class="txt-body">Se trabajara con funciones para que el código se pueda leer mejor.</li>
             </article>
             <!-- Convención para estilos -->
-            </article>
-            <article>
-                <h2>Style jsx en Componentes</h2>
-                <li>Si se va a agregar alguna interactividad a los estilos, se deberá de usar el style jsx que nos
+            <article class="article-txt" id="style_jsx">
+                <h2 class="txt-principal">Style jsx en Componentes</h2>
+                <li class="txt-body">Si se va a agregar alguna interactividad a los estilos, se deberá de usar el style jsx que nos
                     ofrece Next, esto con el fin de solo usar dentro de los componentes los estilos con algún cambio de
                     estado, acá un ejemplo: </li>
                 <img src="/example-one.png" alt="imagen de código">
             </article>
-            <article>
-                <h2>Metodología 7 en 1</h2>
-                <li>Esta metodología se acopla perfectamente con la metodología de Atom Design ya que podremos separar
+            <article class="article-txt" id="seven_in_one">
+                <h2 class="txt-principal">Metodología 7 en 1</h2>
+                <li class="txt-body">Esta metodología se acopla perfectamente con la metodología de Atom Design ya que podremos separar
                     los estilos de la misma forma que con el Atom Design</li>
                 <h2>A tener en cuenta</h2>
-                <li>Si se crea una nueva página, esta deberá tener sus propios archivos de estilos.</li>
-                <li>Los archivos se nombraran en ingles y en minuscula</li>
-                <li>Los archivos estarán en formato .scss</li>
-                <li>El archivo que contiene cada grupo de estilos debera tener un _index.scss para agruparlos todos y
+                <li class="txt-body">Si se crea una nueva página, esta deberá tener sus propios archivos de estilos.</li>
+                <li class="txt-body">Los archivos se nombraran en ingles y en minuscula</li>
+                <li class="txt-body">Los archivos estarán en formato .scss</li>
+                <li class="txt-body">El archivo que contiene cada grupo de estilos debera tener un _index.scss para agruparlos todos y
                     tener una organización mas adecuada.</li>
-                <li>Se debe usar los import correctamente para que los estilos se apliquen correctamente.</li>
-                <li>Los archivos deberán estar nomprados por el tipo de estilo, <span>ejemplo, si los estilos son de las
+                <li class="txt-body">Se debe usar los import correctamente para que los estilos se apliquen correctamente.</li>
+                <li class="txt-body">Los archivos deberán estar nomprados por el tipo de estilo, <span>ejemplo, si los estilos son de las
                         moléculas de la página home, se nombrara así: _molecule-home</span> </li>
             </article>
           <!--  otros -->
-            <article>
-                <h2>¿Como Colaboro al proyecto?</h2>
-                <li>Les comparto un post que explica como hacer un pull request, acá el articulo:</li>
-                <p>https://www.notion.so/Haciendo-mi-primer-Pull-Request-6df0f8e81c0945dbb357c56dc828ac18</p>
+            <article class="article-txt" id="colaborate">
+                <h2 class="txt-principal">¿Como Colaboro al proyecto?</h2>
+                <li class="txt-body link-pull">Les comparto un post que explica como hacer un pull request, acá el articulo:</li>
+                <a target="_blank" href="https://www.notion.so/Haciendo-mi-primer-Pull-Request-6df0f8e81c0945dbb357c56dc828ac18" class="txt-body">https://www.notion.so/Haciendo-mi-primer-Pull-Request-6df0f8e81c0945dbb357c56dc828ac18</a>
 
-                <h2>A tener en cuenta</h2>
-                </li>Para que alguien pueda colabrar en el proyecto tendrá que hacer un fork, asi cada quien podrá hacer
+                <h2 class="txt-principal">A tener en cuenta</h2>
+                <li class="txt-body">Para que alguien pueda colabrar en el proyecto tendrá que hacer un fork, asi cada quien podrá hacer
                 cambios en su versión, para luego hacer el pull request.</li>
-                <li>Se ara un pull request por tarea completada</li>
-                <li>Si hay una corrección de un error se podrá hacer un pull request de inmediato.</li>
+                <li class="txt-body">Se ara un pull request por tarea completada</li>
+                <li class="txt-body">Si hay una corrección de un error se podrá hacer un pull request de inmediato.</li>
+                <p class="txt-body"> <span class="subtitle-body">Nota: </span><i>La descripción de los commits se tienen que hacer en ingles, y es importante que tengan en cuenta las siguiente nomenclatura para hacer los commits:</i></p>
+                <img src="/unknown1.png" alt="">
                 <h2>Mas información del proyecto</h2>
-                <p>https://www.notion.so/Proyecto-Fazt-Match-9abc58444bae4e1889822423352feea1</p>
+                <a target="_blank" href="https://www.notion.so/Proyecto-Fazt-Match-9abc58444bae4e1889822423352feea1" class="txt-body">https://www.notion.so/Proyecto-Fazt-Match-9abc58444bae4e1889822423352feea1</a>
             </article>
-            <article>
-                <h2>Contactanos</h2>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </article>
+            
         </section>
     </main>
 </body>
