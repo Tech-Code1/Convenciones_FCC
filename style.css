@@ -68,6 +68,12 @@ main {
   margin-bottom: 64px;
 }
 
+@media only screen and (max-width: 815px) {
+  .line-convetion {
+    margin-bottom: 8px;
+  }
+}
+
 .line-menu {
   margin-bottom: 16px;
 }
@@ -142,13 +148,13 @@ img {
 
 @media only screen and (max-width: 815px) {
   .content-nav {
-    height: 350px;
+    height: 280px;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 815px) {
   ul {
-    height: 350px;
     overflow-y: scroll;
   }
 }
