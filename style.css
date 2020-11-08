@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(195, 195, 195, 0.692);
+}
+
+.content-nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 480px;
+  height: 100vw;
+  background: #cadaeb;
+  top: 0;
+}
